@@ -1,0 +1,787 @@
+$baseclr: #141414;
+$yellow: #ffa901;
+$white: #fff;
+$black: #000;
+$border: #1e1e1e;
+$fill: #101010;
+$price: #eef2ff;
+$button: #d98f00;
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  background-color: $baseclr;
+  color: $white;
+}
+
+.navbar {
+  background-color: $black;
+
+  .nav-item {
+    a {
+      color: $white;
+
+      &:hover {
+        color: $yellow;
+        border-bottom: 2px solid $yellow;
+
+        img {
+          content: url("images/yellow.svg");
+        }
+      }
+    }
+
+    .btn {
+      border: 2px solid $yellow;
+    }
+  }
+}
+
+figcaption {
+  color: $white;
+}
+
+main {
+  background-image: url("images/gif.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+
+  .hero-main {
+    p {
+      color: $yellow;
+      font-size: 34px;
+    }
+
+    .hero-description {
+      margin-top: 17rem;
+    }
+
+    div {
+      color: white;
+
+      #book {
+        color: $yellow;
+        border-bottom: 2px solid $yellow;
+      }
+    }
+  }
+}
+
+.FutureTech {
+  div {
+    height: 260px;
+    background-image: url(images/future.svg);
+    background-color: $black;
+
+    p {
+      margin-left: 150px;
+      padding-top: 90px;
+      color: $white;
+    }
+
+    span {
+      font-size: 34px;
+      font-weight: bold;
+      color: $yellow;
+      margin-left: 150px;
+      padding-top: 100px;
+    }
+  }
+}
+
+.Future-Technology {
+  background-color: $black;
+
+  .col-4 {
+    border: 1px solid $border;
+    height: 250px;
+
+    p {
+      max-width: 80%;
+      color: $white;
+      width: max-content;
+      margin-left: 77px;
+    }
+  }
+
+  h4 {
+    color: $white;
+  }
+}
+
+.custom-border {
+  border: 1px solid $border;
+  padding: 10px;
+  margin: 20px;
+  height: 100px;
+  background-color: $fill;
+
+  .box {
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: black;
+  }
+
+  .text-row {
+    color: $white;
+    color: $white;
+    margin-left: 65px;
+    text-align: start;
+    margin-top: -60px;
+  }
+}
+
+.row {
+  .box1 {
+    border-left: none;
+  }
+}
+
+.col-8 {
+  .row {
+    .col:hover {
+      background-image: url("images/Mask\ group.svg");
+      background-color: $yellow;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      #rocket {
+        content: url("images/Rocket.svg");
+      }
+
+      #Trending {
+        content: url("images/Trending\ up1.svg");
+      }
+
+      #bus {
+        content: url("images/bus.svg");
+      }
+
+      #head {
+        content: url("images/head.svg");
+      }
+
+      .text-row {
+        color: black;
+      }
+    }
+  }
+}
+
+.Innovative {
+  background-image: url("images/why2.svg"), url("images/why_choose_us.svg");
+  height: 600px;
+  background-position: left right;
+
+  .Innovation-heading {
+    color: $white;
+    font-size: 30px;
+    margin-left: 75px;
+  }
+
+  img {
+    margin-left: 120px;
+  }
+
+  .Innovative-main {
+    font-size: 44px;
+    color: $yellow;
+    margin-left: 139px;
+    margin-top: -120px;
+    font-weight: bolder;
+    text-shadow: -2px -2px 0 #000, -2px -2px 0 #000, 2px 2px 0 #000,
+      2.5px 2.5px 0 $yellow;
+  }
+
+  .Innovative-main2 {
+    color: $white;
+    height: 200px;
+    margin-left: 139px;
+    max-width: 40%;
+  }
+
+  .Innvative-options {
+    color: $white;
+    font-size: 20px;
+    margin-top: -90px;
+
+    li {
+      list-style: none;
+
+      &:hover {
+        color: $yellow;
+
+        #find,
+        #easy,
+        #ai {
+          content: url("images/yellowtick.svg");
+        }
+      }
+    }
+  }
+}
+
+.robot {
+  background-image: url("images/robotbgc.svg");
+  background-repeat: no-repeat;
+  background-color: $black;
+  margin: -20px 0px 0;
+
+  /* add negative margin to top and left/right */
+  .col-8 {
+    .robot-main {
+      margin-left: 230px;
+
+      .mission {
+        color: $white;
+        font-size: 30px;
+      }
+
+      .turn-idea {
+        font-size: 44px;
+        font-weight: bold;
+        color: $yellow;
+      }
+
+      p {
+        color: $white;
+        font-size: 18px;
+        max-width: 80%;
+      }
+
+      .robot-percentage {
+        ul {
+          li {
+            color: $white;
+            font-size: 30px;
+
+            div {
+              font-size: 20px;
+            }
+
+            &:hover {
+              color: $yellow;
+
+              div {
+                color: $white;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.price {
+  background-image: url("images/why2.svg"), url("images/why_choose_us.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+
+  .price-heading {
+    color: $yellow;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .Pricing {
+    color: $yellow;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .price-main {
+    height: 500px;
+    width: 1100px;
+
+    .price-description {
+      color: $white;
+      font-size: 16px;
+      font-weight: 200;
+    }
+
+    .first-col {
+      color: $price;
+
+      button {
+        color: $black;
+      }
+
+      &:hover {
+        color: $yellow;
+
+        .plan-price {
+          color: $yellow; // Change color of .plan-price on hover
+        }
+
+        ul a {
+          color: $yellow; // Change color of links within ul on hover
+        }
+
+        ul li {
+          color: $yellow; // Change color of text within li on hover
+        }
+
+        button {
+          background: linear-gradient(
+            0deg,
+            rgba(253, 187, 45, 1) 0%,
+            rgba(0, 0, 0, 1) 100%
+          );
+          color: $white;
+        }
+
+        img {
+          content: url("images/pricetickgreen.svg");
+        }
+      }
+
+      .plan-price {
+        font-weight: bold;
+        font-size: 20px;
+      }
+
+      ul {
+        a {
+          text-decoration: none;
+          color: $price;
+
+          li {
+            list-style: none;
+            text-align: start;
+            margin-left: -20px;
+            max-width: 100%;
+          }
+        }
+      }
+
+      .included {
+        color: $price; // Keep the color of "What's included" unchanged
+        border-bottom: 1px solid $price;
+      }
+    }
+  }
+}
+
+.sec-col {
+  .nine {
+    font-size: 14px;
+    text-decoration-line: line-through;
+  }
+
+  .month {
+    font-size: 14px;
+  }
+}
+
+#custom-p {
+  font-size: 14px;
+  color: $price;
+  font-weight: 400;
+}
+
+.future-second {
+  border: 1px solid $border;
+  border-right: none;
+}
+
+.our-services {
+  height: 680px;
+  background-color: $black;
+
+  .services-head {
+    font-size: 61px;
+    color: $yellow;
+    text-shadow: -2px -2px 0 #000, -2px -2px 0 #000, 2px 2px 0 #000,
+      2.5px 2.5px 0 $yellow;
+  }
+
+  .services-summery {
+    font-size: 25px;
+    color: $white;
+  }
+
+  figure {
+    figcaption {
+            text-align: center;
+      color: #8c6826;
+      margin-top: 10px;
+    }
+  }
+
+  .row 
+  {
+    border: 1px solid black;
+    border-top:none;
+    .col-3 {
+      height: 250px;
+      border-right: none;
+      border: 1px solid  rgb(99, 67, 9);
+      border-bottom: none;
+      border-top: none;
+      border-left: none;
+      border-radius: none;
+      &:hover
+      {
+        background-image:url("images/reactbgc.svg");
+        background-size: cover;
+
+      }
+    }
+    figure{
+      &:hover
+      {
+        
+        figcaption
+        {
+          text-shadow: 1px 1px 1px $white;
+
+        }
+        #demo1
+        {
+        content: url("images/demo1.svg");
+        background-image: url("images/serbgc.svg");
+        background-size: cover;
+
+        }
+        #demo2
+        {
+        content: url("images/service2.svg");
+        background-image: url("images/serbgc.svg");
+        background-size: cover;
+        }
+        #demo3
+        {
+        content: url("images/demo3.svg");
+        background-image: url("images/serbgc.svg");
+        background-size: cover;
+        }
+        #demo4
+        {
+        content: url("images/demo4.svg");
+        background-image: url("images/serbgc.svg");
+        background-size: cover;
+        }
+        #demo5
+        {
+        content: url("images/demo5.svg");
+        background-image: url("images/serbgc.svg");
+        background-size: cover;
+        }
+        #demo6
+        {
+        content: url("images/demo6.svg");
+        background-image: url("images/serbgc.svg");
+        background-size: cover;
+        }
+        #demo7
+        {
+        content: url("images/demo7.svg");
+        background-image: url("images/serbgc.svg");
+        background-size: cover;
+        }
+        #demo8
+        {
+        content: url("images/demo8.svg");
+        background-image: url("images/serbgc.svg");
+        background-size: cover;
+        }
+      
+    }
+  }
+    }
+  
+}
+
+.try-it {
+  background-color: black;
+  height: 300px;
+  background-image: url("images/trybgc.svg");
+
+  .try-it-heading {
+    color: $white;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .try-it-heading-caption {
+    color: $white;
+  }
+
+  .try-it-button {
+    button {
+      background-color: #936302;
+
+      border: 1px solid black;
+      border-radius: 6px;
+      font-size: 20px;
+
+      &:hover {
+        background-color: $button;
+      }
+    }
+  }
+}
+
+.connect {
+  background-color: $black;
+  color: $white;
+  height: 700px;
+  display: flex;
+  
+
+  .connect-head {
+    font-size: 55px;
+    max-width: 40%;
+    padding-top: 150px;
+    text-shadow: -2px -2px 0 #000, -2px -2px 0 #000, 2px 2px 0 #000,
+      2.5px 2.5px 0 #fff;
+  }
+
+  .connect-main {
+    font-size: 18px;
+    text-shadow: -2px -2px 0 #000, -2px -2px 0 #000, 2px 2px 0 #000,
+      2.5px 2.5px 0 #000;
+                }
+             
+              
+}
+
+.contact {
+  background-color: $black;
+
+  .contact-page {
+    height: 600px;
+    width: 1000px;
+    border: 2px dashed $yellow;
+    border-radius: 20px;
+    border-spacing: 5px;
+
+    .contact-heading {
+      // font-size: 50px;
+      font-weight: bold;
+      color: $yellow;
+      text-shadow: -2px -2px 0 #000, -2px -2px 0 #000, 2px 2px 0 #000,
+        2.5px 2.5px 0 #fff;
+    }
+
+    .row {
+      .col-12 {
+        label {
+          color: $yellow;
+          font-size: 25px;
+        }
+
+        input {
+          width: 900px;
+          background-color: $black;
+          border: 1px dashed $yellow;
+          color: $white;
+          font-size: 18px;
+        }
+
+        .text-section {
+          color: $white;
+          margin: 0;
+        }
+
+        button {
+          font-size: 20px;
+          margin-left: 370px;
+          background: linear-gradient(
+            0deg,
+            rgba(153, 117, 47, 1) 0%,
+            rgba(255, 168, 0, 1) 100%
+          );
+          font-weight: bold;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+}
+
+
+.footer-asb {
+  height: 400px;
+  background-color: $black;
+  padding-top: 100px;
+
+  .container {
+    height: 250px;
+    width: 1000px;
+
+    ul {
+      li {
+        color: $white;
+        // margin-left: 90px;
+      }
+    }
+  }
+}
+
+header {
+  &:hover {
+    background-color: $yellow;
+    color: $black;
+  }
+}
+
+footer {
+  .row {
+    .col-4 {
+      text-align: start;
+      font-size: 18px;
+      max-width: 200%;
+      color: $white;
+
+      
+    }
+  }
+}
+
+.right {
+  width: 800px;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.right>div {
+  display: flex;
+  justify-content: center;
+  align-items:end;
+  position: absolute;
+  border-radius: 50%;
+  // width: 200px;
+  // height: 200px;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.right>div:hover {
+  animation-play-state: paused;
+}
+
+.one,
+.two,
+.three,
+.four {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.one {
+  animation-name: circleOne;
+
+  &:hover {
+      img {
+          content: url("images/glowrobot.svg");
+         
+      }
+  }
+}
+
+.two {
+  animation-name: circleTwo;
+  // background-image: url(./assets/glowconnect.svg);
+
+  &:hover {
+      img {
+          content: url("images/cimg2.svg");
+          
+      }
+  }
+}
+.three {
+  animation-name: circleThree;
+
+  // background-image: url(./assets/glowconnect.svg);
+  &:hover {
+      img {
+          content: url("images/cimg5.svg");
+         
+      }
+  }
+}
+
+.four {
+  animation-name: circleFour;
+  &:hover {
+      img {
+          content: url("images/cimg4.svg");
+        
+      }
+  }
+}
+
+.five {
+  width: 200px;
+  height: 200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  // background-image: url(./assets/glowconnect.svg);
+  cursor: pointer;
+
+  &:hover {
+      img {
+          content: url("images/cimg3.svg");
+          
+      }
+  }
+}
+
+@keyframes circleOne {
+  0% {
+      transform: translate(-50%, -50%) rotate(0deg) translateX(200px) rotate(0deg);
+  }
+
+  100% {
+      transform: translate(-50%, -50%) rotate(360deg) translateX(200px) rotate(-360deg);
+  }
+}
+
+@keyframes circleTwo {
+  0% {
+      transform: translate(-50%, -50%) rotate(0deg) translateY(200px) rotate(0deg);
+  }
+
+  100% {
+      transform: translate(-50%, -50%) rotate(360deg) translateY(200px) rotate(-360deg);
+  }
+}
+
+@keyframes circleThree {
+  0% {
+      transform: translate(-50%, -50%) rotate(0deg) translateX(-200px) rotate(0deg);
+  }
+
+  100% {
+      transform: translate(-50%, -50%) rotate(360deg) translateX(-200px) rotate(-360deg);
+  }
+}
+
+@keyframes circleFour {
+  0% {
+      transform: translate(-50%, -50%) rotate(0deg) translateY(-200px) rotate(0deg);
+  }
+
+  100% {
+      transform: translate(-50%, -50%) rotate(360deg) translateY(-200px) rotate(-360deg);
+  }
+}
+
+
+
