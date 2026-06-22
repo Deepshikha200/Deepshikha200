@@ -85,7 +85,7 @@ Currently building at **Antier Solutions** — working on Web3 platforms, real-w
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Deepshikha200&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Deepshikha200&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
 &nbsp;&nbsp;
 <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Deepshikha200&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" />
 
